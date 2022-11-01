@@ -1,0 +1,42 @@
+a {
+  letter-spacing: 0.1em;
+  display: inline-block;
+  font-size: 1.3em;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+  
+}
+
+a:focus,
+a:hover {
+  color: #23c483;
+}
+
+a:focus:after,
+a:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+a:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #23c483;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}

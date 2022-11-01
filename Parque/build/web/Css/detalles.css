@@ -1,0 +1,35 @@
+.subTitle {
+    color: #fff;
+    margin: 0.3em;
+}
+
+table {
+    font-size: 1.3em;
+    color: #fff;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+th {
+    padding: 1.2em;
+}
+
+td {
+    padding: 1.2em;
+}
+
+.tableDiv {
+    margin-bottom: 3em;
+    color: #fff;
+}
+
+.pageTitle {
+    color: #fff;
+}
+
+.tableDiv {
+    color: #fff;
+}
+
+
+

@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: #242424;
+    text-align: center;
+}
+
+
+.form-control {
+  position: relative;
+  margin: 20px auto;
+  width: 190px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  pointer-events: none;
+  color: #fff;
+  font-size: 18px;
+      
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  color: #fff;
+  transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+  color: lightblue;
+  transform: translateY(-30px);
+}
+
+.container {
+    display: inline-block;
+    margin-top: 3em;
+    padding: 3em 7em;
+    background-color: #303030;
+    border-bottom: 1.5px solid #23c483;
+    border-right: 1.5px solid #23c483;
+    margin-bottom: 3em;
+}
+
+.title {
+    color: #fff;
+    border-bottom: 1px solid #23c483;
+    padding: 0.3em;
+}
+
+.chekBox {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+        
+}
+
+.checkTitle {
+    margin-right: 1em;
+}
+
+.date {
+    margin-top: 1em
+}
+
+.link {
+    margin: 1.5em
+}
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <link href="Css/FormStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="Css/submitStyle.css" rel="stylesheet" type="text/css"/>
+        <link href="Css/linkStyle.css" rel="stylesheet" type="text/css"/>
+        
+        <title>Parque de Diversiones</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <h3 class="title">Login</h3>
+                <form method="POST" action="UsuarioLogin" autocomplete="off">
+                
+                    <div class="form-control">
+                        <input type="text" name="nombreUsuario" id="nombreUsuario" required="">
+                        <label>
+                            <span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span><span style="transition-delay:200ms">n</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+                        </label>
+                    </div>
+                    
+                    <div class="form-control">
+                        <input type="password" name="clave" id="clave" required="">
+                        <label>
+                            <span style="transition-delay:0ms">C</span><span style="transition-delay:50ms">l</span><span style="transition-delay:100ms">a</span><span style="transition-delay:150ms">v</span><span style="transition-delay:200ms">e</span>
+                        </label>
+                    </div>
+                    
+                    <input type="submit" value="submit" class="submit">
+                </form>
+            </div>
+            <br>
+            <a href="opciones.jsp">
+                Registrarse
+            </a>
+        </main>
+    </body>
+</html>

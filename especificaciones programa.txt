@@ -1,0 +1,27 @@
+Especificaciones del programa:
+El programa funciona de manera tal que deberia crear todas las tablas necesarias
+en la base de datos una vez se inicia o se registra por primera vez
+en caso de que no lo haga se recomienda correr los controladores desde la clase
+main llamada testeo desde la carpeta logica.
+
+Lo primero que hay que hacer es crear una cuenta, se podra elegir si crear una 
+cuenta con un una atraccion nueva o una ya existente. Se recomienda fuertemente
+crear una cuenta con atraccion nueva la primra vez que se registra.
+
+Una vez registrado e ingrasado al sistema se poddran elegir todas las opciones
+que se ven en su pagina principal
+-------------------------------------------------------------------------------
+cosas a tener en cuenta:
+No se puede crear una nueva atraccion desde el sistema principal, para ello 
+debe registrarse un nuevo usuario. Esto se debe a la cardinalidad de la 
+tabla Encargado con Atracciones.
+
+No se podran modificar o eliminar cuentas de otros usuarios, unicamente podras 
+editar la cuenta con la que has ingresado, al fin y al cabo no tendria mucho
+sentido que un compañero de trabajo pueda borrar o cambiar la clave de la cuenta 
+de la otra persona.
+
+Se recomienda no borrar Atracciones, si bien es completamente posible puede 
+generar nulls en las tablas encargado y horario, en caso de haber un null en 
+alguno de estos se debera asignar una nueva atraccion antes de modificar 
+cualquiera de sus atributos.

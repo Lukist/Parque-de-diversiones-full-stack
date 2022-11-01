@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: #242424;
+    text-align: center;
+}
+
+.title {
+    color: #fff;
+    border-bottom: 1px solid #23c483;
+    padding: 0.3em;
+}
+
+.container {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 3em 7em;
+    background-color: #303030;
+    border-bottom: 1.5px solid #23c483;
+    border-right: 1.5px solid #23c483;
+    margin-bottom: 3em;
+}
+
+a {
+    text-decoration: none;
+    margin: 1.5em;
+    display: block;
+}
+
+
+
